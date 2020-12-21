@@ -142,8 +142,7 @@ class PostDetail extends StatelessWidget {
   }
 
   Widget _commentCard(double height) {
-    return Container(
-      height: height * .25,
+    return Expanded(
       child: ListView.separated(
         padding: EdgeInsets.only(left: Vars.md, right: Vars.md),
         scrollDirection: Axis.vertical,
